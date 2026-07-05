@@ -4,7 +4,7 @@ import sitemap from '@astrojs/sitemap';
 import tailwindcss from '@tailwindcss/vite';
 
 export default defineConfig({
-  site: 'https://pension-alimentaire-calcul.fr',
+  trailingSlash: 'always',  site: 'https://pension-alimentaire-calcul.fr',
   integrations: [react(), sitemap()],
   vite: {
     plugins: [tailwindcss()],

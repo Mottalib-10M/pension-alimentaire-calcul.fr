@@ -2,3 +2,5 @@ User-agent: *
 Allow: /
 
 Sitemap: https://pension-alimentaire-calcul.fr/sitemap-index.xml
+
+Disallow: /*?*

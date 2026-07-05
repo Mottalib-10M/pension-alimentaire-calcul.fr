@@ -74,6 +74,47 @@ La table de référence pour un revenu disponible de 3 365 € en garde alterné
 
 ---
 
+## Build status
+
+- **Build:** 24 pages, 0 errors
+- **Tests:** 18/18 passed
+- **Sitemap:** auto-generated (sitemap-index.xml)
+
+## Page inventory (24 pages)
+
+| Category | Count | Details |
+|---|---|---|
+| Home + legal | 3 | index, mentions-legales, confidentialite |
+| Tool pages | 3 | index (calculateur), guide-prestation, faq |
+| Guides index | 1 | /guides/ |
+| Guide articles | 8 | bareme-pension-alimentaire, dvh-classique-vs-elargi, pension-alimentaire-garde-alternee, revision-pension-alimentaire, non-paiement-pension-alimentaire, pension-enfant-majeur, fiscalite-pension-alimentaire, mediation-familiale |
+| Children pages | 6 | pension-alimentaire-1-enfant through pension-alimentaire-6-enfants |
+| DVH pages | 4 | pension-alimentaire-dvh-classique, dvh-elargi, dvh-reduit, garde-alternee |
+
+## Components
+
+- PensionCalculator.tsx (dual-tab: pension alimentaire + prestation compensatoire)
+
+## Data files
+
+- baremes-2026.ts — minimum vital, DVH rates, degressive coefficients
+- enfants-data.ts — 6 children entries with pre-calculated examples
+- dvh-data.ts — 4 DVH type entries with comparison tables
+
+## Quality gates
+
+- [x] Build passes (24 pages, 0 errors)
+- [x] Tests pass (18/18)
+- [x] Sitemap generated
+- [x] Schema.org on every page (WebApplication, FAQPage, BreadcrumbList)
+- [x] Analytics: Plausible + GA4 placeholder
+- [x] robots.txt present
+- [x] llms.txt present
+- [x] All guide pages > 1500 words
+- [x] Disclaimer in footer
+- [x] Mobile-responsive navigation (hamburger menu)
+- [x] Internal cross-linking between tools and guides
+
 ## Notes
 
 - Les montants calculés sont **purement indicatifs**. Le juge aux affaires familiales (JAF) dispose d'un large pouvoir d'appréciation et peut s'écarter du barème.

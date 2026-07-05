@@ -1,0 +1,23 @@
+# pension-alimentaire-calcul.fr
+
+> Simulateur de pension alimentaire — calcul selon le barème du Ministère de la Justice.
+
+## Overview
+
+pension-alimentaire-calcul.fr est un outil gratuit pour estimer le montant de la pension alimentaire (contribution à l'entretien et l'éducation des enfants) en cas de séparation ou divorce. Le calcul suit le barème indicatif du Ministère de la Justice, en tenant compte des revenus du débiteur, du nombre d'enfants et du mode de garde (résidence alternée, classique, réduit).
+
+## Main features
+
+- Calculateur de pension alimentaire selon le barème du Ministère de la Justice
+- Prise en compte du droit de visite et d'hébergement (résidence classique, alternée, réduite)
+- Calcul basé sur les revenus nets du débiteur après déduction du minimum vital
+- Estimation pour un ou plusieurs enfants
+- Guides sur la procédure de fixation, révision et revalorisation de la pension
+- Informations sur la prestation compensatoire et la contribution aux charges du mariage
+
+## Data sources
+
+- Barème indicatif du Ministère de la Justice : justice.fr
+- Service-Public.fr : service-public.fr
+- Code civil (articles 203 à 211, 371-2) : legifrance.gouv.fr
+- Table de référence pour la pension alimentaire : circulaire du Ministère de la Justice
